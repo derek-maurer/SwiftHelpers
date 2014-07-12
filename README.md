@@ -60,11 +60,15 @@ Array
 someArray.loop {
     //this closure will be performed for every element in the array
 }
+</code>
 
+<code>
 if someArray.contains(object: someObject) {
     //contains object is not implemented on Swift arrays
 }
+</code>
 
+<code>
 let index = someArray.indexOfObject(object: someObject)
 //this is also not implemented on Swift arrays
 </code>
@@ -73,6 +77,6 @@ Dictionary
 ============
 
 <code>
-someDictionary.writeToFile(file: "some/file/path", atomically: true)
+someDictionary.writeToFile(file: "some/file/path", atomically: true)<br/>
 //This is not implemented on Swift dictionaries
 </code>
