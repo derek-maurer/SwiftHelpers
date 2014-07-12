@@ -6,22 +6,27 @@ This is a small file that adds onto Swift. It fixes some small annoyances about 
 
 Dispatch
 ============
-<p>
 <code>
 wait(0.5) {
+<br />
     //wait 0.5 seconds and then perform this closure
+<br />
 }
 </code>
-</p>
 
+<code>
 async {
     //this closure will be executed in the background
 }
+</code>
 
+<code>
 main {
     //this closure will be performed on the main thread
 }
+</code>
 
+<code>
 // You can do something like this:
 
 async {
@@ -31,22 +36,28 @@ async {
         //update the UI on the main thread
     }
 }
+</code>
 
 Localization
 ============
 
+<code>
 let localizedString = local("KEY")
+</code>
 
 Control Flow
 ============
 
+<code>
 loop(3) {
     //perform something 3 times
 }
+</code>
 
 Array
 ============
 
+<code>
 someArray.loop {
     //this closure will be performed for every element in the array
 }
@@ -57,9 +68,12 @@ if someArray.contains(object: someObject) {
 
 let index = someArray.indexOfObject(object: someObject)
 //this is also not implemented on Swift arrays
+</code>
 
 Dictionary
 ============
 
+<code>
 someDictionary.writeToFile(file: "some/file/path", atomically: true)
 //This is not implemented on Swift dictionaries
+</code>
