@@ -7,9 +7,7 @@ This is a small file that adds onto Swift. It fixes some small annoyances about 
 ### Dispatch ###
 ```
 wait(0.5) {
-<br />
     //wait 0.5 seconds and then perform this closure
-<br />
 }
 ```
 
