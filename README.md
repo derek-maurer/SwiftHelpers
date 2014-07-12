@@ -8,9 +8,9 @@ Dispatch
 ============
 <code>
 wait(0.5) {
-    <br>
+    <p>
     //wait 0.5 seconds and then perform this closure
-    <br>
+    </p>
 }
 </code>
 
