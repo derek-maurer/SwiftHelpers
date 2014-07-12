@@ -55,7 +55,7 @@ someArray.loop {
 }
 ```
 
-This is also not implemented on Swift arrays
+The next two are not implemented on Swift Array and definitely should be.
 ```
 if someArray.contains(object: someObject) {
     //contains object is not implemented on Swift arrays
