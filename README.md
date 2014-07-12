@@ -8,33 +8,24 @@ Dispatch
 ============
 
 wait(0.5) {
-
     //wait 0.5 seconds and then perform this closure
-
 }
 
 async {
-
     //this closure will be executed in the background
-
 }
 
 main {
-
     //this closure will be performed on the main thread
-
 }
 
 // You can do something like this:
 
 async {
-
     //something long in the background 
 
     main {
-
         //update the UI on the main thread
-
     }
 }
 
@@ -47,9 +38,7 @@ Control Flow
 ============
 
 loop(3) {
-
     //perform something 3 times
-
 }
 
 Array
