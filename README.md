@@ -11,20 +11,20 @@ wait(0.5) {
 }
 ```
 
-<code>
+```
 async {
     //this closure will be executed in the background
 }
-</code>
+```
 
-<code>
+```
 main {
     //this closure will be performed on the main thread
 }
 
 You can use it like this:
 
-<code>
+```
 async {
     //something long in the background 
 
@@ -32,45 +32,44 @@ async {
         //update the UI on the main thread
     }
 }
-</code>
+```
 
 ### Localization ###
 
-<code>
+```
 let localizedString = local("KEY")
-</code>
+```
 
 ### Control Flow ###
 
-<code>
+```
 loop(3) {
     //perform something 3 times
 }
-</code>
+```
 
 ### Array ###
 
-<code>
+```
 someArray.loop {
     //this closure will be performed for every element in the array
 }
-</code>
+```
 
 This is also not implemented on Swift arrays
-<code>
+```
 if someArray.contains(object: someObject) {
     //contains object is not implemented on Swift arrays
 }
-</code>
+```
 
-
-<code>
+```
 let index = someArray.indexOfObject(object: someObject)
-</code>
+```
 
 ### Dictionary ###
 
 This is not implemented on Swift dictionaries
-<code>
+```
 someDictionary.writeToFile(file: "some/file/path", atomically: true)<br/>
-</code>
+```
