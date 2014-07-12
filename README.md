@@ -63,12 +63,12 @@ if someArray.contains(object: someObject) {
 ```
 
 ```
-let index = someArray.indexOfObject(object: someObject)
+let index = someArray.indexOf(object: someObject)
 ```
 
 ### Dictionary ###
 
 This is not implemented on Swift dictionaries
 ```
-someDictionary.writeToFile(file: "some/file/path", atomically: true)<br/>
+someDictionary.writeToFile(file: "some/file/path", atomically: true)
 ```
