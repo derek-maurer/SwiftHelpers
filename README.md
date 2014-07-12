@@ -5,7 +5,7 @@ This is a small file that adds onto Swift. It fixes some small annoyances about 
 
 
 Dispatch
-============
+-------------
 <code>
 wait(0.5) {
 <br />
@@ -38,14 +38,14 @@ async {
 </code>
 
 Localization
-============
+-------------
 
 <code>
 let localizedString = local("KEY")
 </code>
 
 Control Flow
-============
+-------------
 
 <code>
 loop(3) {
@@ -54,7 +54,7 @@ loop(3) {
 </code>
 
 Array
-============
+-------------
 
 <code>
 someArray.loop {
@@ -62,21 +62,22 @@ someArray.loop {
 }
 </code>
 
+This is also not implemented on Swift arrays
 <code>
 if someArray.contains(object: someObject) {
     //contains object is not implemented on Swift arrays
 }
 </code>
 
+
 <code>
 let index = someArray.indexOfObject(object: someObject)
-//this is also not implemented on Swift arrays
 </code>
 
 Dictionary
-============
+-------------
 
+This is not implemented on Swift dictionaries
 <code>
 someDictionary.writeToFile(file: "some/file/path", atomically: true)<br/>
-//This is not implemented on Swift dictionaries
 </code>
