@@ -4,15 +4,14 @@ SwiftHelpers
 This is a small file that adds onto Swift. It fixes some small annoyances about Swift and adds some convenience as well. 
 
 
-Dispatch
--------------
-<code>
+### Dispatch ###
+```
 wait(0.5) {
 <br />
     //wait 0.5 seconds and then perform this closure
 <br />
 }
-</code>
+```
 
 <code>
 async {
@@ -37,15 +36,13 @@ async {
 }
 </code>
 
-Localization
--------------
+### Localization ###
 
 <code>
 let localizedString = local("KEY")
 </code>
 
-Control Flow
--------------
+### Control Flow ###
 
 <code>
 loop(3) {
@@ -53,8 +50,7 @@ loop(3) {
 }
 </code>
 
-Array
--------------
+### Array ###
 
 <code>
 someArray.loop {
@@ -74,8 +70,7 @@ if someArray.contains(object: someObject) {
 let index = someArray.indexOfObject(object: someObject)
 </code>
 
-Dictionary
--------------
+### Dictionary ###
 
 This is not implemented on Swift dictionaries
 <code>
