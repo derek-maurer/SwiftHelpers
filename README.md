@@ -25,8 +25,9 @@ main {
     //this closure will be performed on the main thread
 }
 
-// You can do something like this:
+You can use it like this:
 
+<code>
 async {
     //something long in the background 
 
