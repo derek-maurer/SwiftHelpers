@@ -7,9 +7,9 @@ This is a small file that adds onto Swift. It fixes some small annoyances about 
 Dispatch
 ============
 
-wait(0.5) {
+`wait(0.5) {
     //wait 0.5 seconds and then perform this closure
-}
+}`
 
 async {
     //this closure will be executed in the background
