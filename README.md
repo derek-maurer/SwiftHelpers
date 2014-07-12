@@ -6,13 +6,13 @@ This is a small file that adds onto Swift. It fixes some small annoyances about 
 
 Dispatch
 ============
+<p>
 <code>
 wait(0.5) {
-    <p>
     //wait 0.5 seconds and then perform this closure
-    </p>
 }
 </code>
+</p>
 
 async {
     //this closure will be executed in the background
