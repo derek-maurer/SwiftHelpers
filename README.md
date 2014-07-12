@@ -22,9 +22,8 @@ main {
     //this closure will be performed on the main thread
 }
 
-You can use it like this:
+//You can use it like this:
 
-```
 async {
     //something long in the background 
 
