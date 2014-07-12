@@ -24,9 +24,7 @@ async {
 main {
     //this closure will be performed on the main thread
 }
-</code>
 
-<code>
 // You can do something like this:
 
 async {
